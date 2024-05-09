@@ -1,0 +1,16 @@
+body{
+
+    background: rgb(63, 146, 255);
+
+}
+
+main {
+    width: 40em;
+    margin-inline: auto;
+    
+}
+
+main img{
+    width: 100%;
+    display: block;
+}
