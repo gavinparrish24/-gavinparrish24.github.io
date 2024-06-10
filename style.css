@@ -13,8 +13,9 @@
 main {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  font-family: var(--font1)
-
+  font-family: var(--font1);
+  height: 100vh;
+  background: linear-gradient(to right, #1c92d2, #f2fcfe);
 }
 
 article {
@@ -23,14 +24,21 @@ article {
   justify-content: center;
   align-items: center;
   padding: 1em;
+
 }
 
+nav {
+  align-items: center;
+  height: auto;
+}
 
+aside {
+margin: auto;
+
+}
 
 aside img{
-  width: 75%;
-  height: 75%;
-
+width: 100%;
 }
 
 
