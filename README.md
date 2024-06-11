@@ -9,3 +9,4 @@ I am a Film major.
 * [YouTube Logo](https://static.vecteezy.com/system/resources/previews/023/986/704/non_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png)
 * [Instagram Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png)
 * [TikTok Logo](https://freepnglogo.com/images/all_img/1691751088logo-tiktok-png.png)
+* [Sky Background](https://www.pexels.com/photo/cloudy-sky-531756/)

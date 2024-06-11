@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
 
-* {
+/* * {
   outline: 1px solid peachpuff;
-}
+} */
 
 :root {
   --color1: green;
@@ -15,7 +15,25 @@ main {
   grid-template-columns: 1fr 1fr;
   font-family: var(--font1);
   height: 100vh;
-  background: linear-gradient(to right, #1c92d2, #f2fcfe);
+  background-image: url(assets/pexels-pixabay-531756.jpg);
+  background-size: cover;
+}
+
+
+h1 {
+  background-image: url(assets/Asset\ 1.png);
+  font-size: 3em;
+  padding-left: 1em;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+}
+
+
+p {
+  background: whitesmoke;
+  padding: 3em; 
+  border-radius: 50%;
 }
 
 article {
@@ -39,6 +57,7 @@ margin: auto;
 
 aside img{
 width: 100%;
+
 }
 
 
