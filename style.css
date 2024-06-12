@@ -116,10 +116,14 @@ aside img{
     color: black;
   }
 body {
-  background: black;
+  background: var(--color1);
 }
   main {
     grid-template-columns: 1fr;
+    height: 121vh;
+    background-image: url(assets/pexels-pixabay-531756.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
 
@@ -130,6 +134,7 @@ body {
     padding-right: 0%;
     position: relative;
     display: flex;
+    left: -5px;
   }
 
   h1 {
@@ -158,11 +163,26 @@ body {
 
 }
 
-.ig {
-  width: 52%;
-  height: 24%;
+.yt {
+  width: 36%;
+  height: 35%;
+  left: 0px;
+  top: 0px;
   position: relative;
-  left: 26px;
-  top: 4px;
 }
+
+.ig {
+  width: 34%;
+  height: 30%;
+  position: relative;
+}
+
+.tt {
+  width: 33%;
+  height: 30%;
+  position: relative;
+  left: 10px;
+}
+
+
 }
