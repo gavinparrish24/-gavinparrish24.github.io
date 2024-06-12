@@ -12,7 +12,7 @@
 /* wrapper */
 main {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.5fr 1fr;
   font-family: var(--font1);
   height: 100vh;
   background-image: url(assets/pexels-pixabay-531756.jpg);
@@ -21,14 +21,25 @@ main {
 
 
 h1 {
-  background-image: url(assets/Asset\ 1.png);
+  z-index: 1;
+  position: relative;
   font-size: 3em;
-  padding-left: 1em;
-  padding-top: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
+  top: 0;
 }
 
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+  background-size: cover;
+}
+
+.name {
+  z-index: 1;
+  position: relative;
+  top: 199px;
+  left: 62px;
+}
 
 p {
   background: whitesmoke;
